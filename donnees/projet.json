@@ -1,0 +1,40 @@
+{
+  "nom": "Immeuble de bureaux R+2 — dossier fil rouge",
+  "ville": "Abidjan",
+  "grille": {
+    "travees_x_m": [4.0, 4.0, 4.0],
+    "travees_y_m": [4.0, 4.0]
+  },
+  "niveaux": {
+    "nombre": 3,
+    "hauteur_etage_m": 3.0,
+    "q_exploitation_kn_m2": [1.0, 2.5, 2.5],
+    "commentaire_q": "du haut vers le bas : toiture-terrasse inaccessible, puis étages de bureaux"
+  },
+  "plancher": {
+    "epaisseur_dalle_m": 0.20,
+    "g_complementaire_kn_m2": 2.0
+  },
+  "poteaux": {
+    "b_m": 0.25,
+    "h_m": 0.25,
+    "contrainte_limite_mpa": 10.0,
+    "cote_minimal_m": 0.20,
+    "pas_m": 0.05
+  },
+  "semelles": {
+    "hauteur_m": 0.50,
+    "contrainte_sol_kpa": 200.0,
+    "pas_m": 0.05
+  },
+  "beton": {
+    "nom": "C25/30",
+    "module_young_mpa": 30000,
+    "poids_volumique_kn_m3": 25.0
+  },
+  "ratios_acier_kg_m3": {
+    "dalles": 90,
+    "poteaux": 120,
+    "semelles": 50
+  }
+}

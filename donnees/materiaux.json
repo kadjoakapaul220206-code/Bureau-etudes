@@ -1,0 +1,11 @@
+{
+  "beton_C25_30":   {"designation": "Béton C25/30 prêt à l'emploi", "unite": "m3", "fck_MPa": 25, "prix_unitaire": 120000},
+  "acier_HA500":    {"designation": "Acier HA500 façonné",          "unite": "kg", "fyk_MPa": 500, "prix_unitaire": 900},
+  "agglo_15":       {"designation": "Agglo creux de 15",            "unite": "u",  "prix_unitaire": 450},
+  "mortier":        {"designation": "Mortier de pose et d'enduit",  "unite": "m3", "prix_unitaire": 85000},
+  "enduit":         {"designation": "Enduit ciment deux faces",     "unite": "m2", "prix_unitaire": 3500},
+  "peinture":       {"designation": "Peinture acrylique 2 couches", "unite": "m2", "prix_unitaire": 2500},
+  "carrelage":      {"designation": "Carrelage grès 40 × 40 posé",  "unite": "m2", "prix_unitaire": 12000},
+  "etancheite":     {"designation": "Étanchéité multicouche",       "unite": "m2", "prix_unitaire": 15000},
+  "menuiserie_alu": {"designation": "Fenêtre aluminium 120 × 120",  "unite": "u",  "prix_unitaire": 95000}
+}
